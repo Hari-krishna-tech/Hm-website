@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My first Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a href="#header" class="navbar-brand">Thil</a>
+      <div class="navlink_container">
+      <ul class="nav_items">
+        <li><a class="nav-link" href="#header">Home</a></li>
+        <li><a class="nav-link" href="#project">Adventures</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      </div>
+    </div>
+    </nav>
+    <div class="container">
+   <h1 class="header" id="header">Senthil Thil</h1>
+   <h2 class="sub_header">Adichipuduven Odi Poiru</h2>
+   <div class="banner"> <!--<img class="banner_image" src="" alt="random image"/> -->  
+   <div class="contents"> 
+     <h1 style="color:white;padding:0px 20px;">Thil..</h1>
+     <p style="color:white;padding:0px 20px;">I created Universe</p>
+      </div>
+   </div> 
+   <section class="projects" id="project">
+     <h1 class="project_header">My Adventures</h1>
+     <div class="project1">
+       <h3 class="project_heading">China</h3>
+       <img class="project_img" src="./hm china.jpg"
+       />
+       <h4 class="project_description">Adventure Description</h4>
+       <p class="project_about">
+This is the iconic moment, when I am fighting with Chinese president for India</p>
+
+     </div>
+     <div class="project2">
+       <h3 class="project_heading">Lion Fight</h3>
+       <img class="project_img" src="./hm lion.jpg"
+       />
+       <h4 class="project_description">Adventure Description</h4>
+       <p class="project_about">
+When I was going to toilet this lion disturbed me, so I fighed with the lion, and killed it,It is very good experience</p>
+
+     </div>
+     <div class="project3">
+       <h3 class="project_heading">My laugh</h3>
+       <img class="project_img" src="./hm laugh.jpg"
+       />
+       <h4 class="project_description">Project Description</h4>
+       <p class="project_about">
+My laugh is also a Adventure</p>
+
+     </div>
+   </section>
+  <section class="aboutme_container" id="about">
+    <h1 class="aboutme_heading">About Me</h1>
+    <p class="aboutme"> Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe<span id="dots">...</span><span id="more"> Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe Universe</span> </p>
+<button onclick="myFunction()" class="btn btn-link" id="mybtn">Read more</button>
+  </section>
+  <footer class="contacts" id="contact">
+    <h3 class="contact_header">Contact info</h3>
+    <h3 class="contact_name">Senthil Thil</h3>
+    <p class="contact_aboutme"><a href="www.facebook.com" target="_blank">facebook</a>
+    <a href="www.instagram.com/senthil.thil.5249?igshid=1ttb24lgqayv9" target="_blank">instagram</a></p>
+    <div class="second"><button class="btn btn-primary"><a style="color:white;text-decoration:none;" href="./second.html">more</a></button></div>
+<div class="copyrights">copyrights@Thil.com</div>
+
+  </footer>
+    </div>
+  <script >
+    alert("use landscape mode for better experience")
+    function myFunction() {
+      const dots = document.getElementById("dots")
+      const moreText = document.getElementById("more")
+      const button = document.getElementById("mybtn")
+      if (dots.style.display === "none") {
+        dots.style.display = "inline"
+        button.innerHTML = "Read more"
+        moreText.style.display = "none"
+      } else {
+        dots.style.display = "none"
+        button.innerHTML = "Read less"
+        moreText.style.display = "inline"
+      }
+    }
+
+  </script>
+
+  </body>
+</html>

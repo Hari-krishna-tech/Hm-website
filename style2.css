@@ -1,0 +1,20 @@
+.nav_items { 
+  list-style: none;
+  display: flex;
+}
+.navlinks-container {
+  display: flex;
+}
+.container {
+  margin-top:120px
+}
+.home-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyrights {
+  text-align: center;
+  opacity: 0.9;
+  color: grey;
+}
